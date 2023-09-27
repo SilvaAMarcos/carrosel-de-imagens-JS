@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1080px;
+    width: 1920px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-image: url(./images/imagemprimeira.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 190px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.main .section{
+    width: 100%;
+}
+
+.main .botao{
+    height: 80px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.main .botao img{
+    height: 80px;
+    width: 50px;
+}
+
+.caixaMensagem{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 700px;
+    width: 620px;
+    margin-left: 60px;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caixaMensagem .titulo{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.caixaMensagem .conteudo{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    transform: translateY( -40px);
+}
+
+.caixaMensagem .saibaMais{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #C50000;
+    text-decoration: none;
+}
